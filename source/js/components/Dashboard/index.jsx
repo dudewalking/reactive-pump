@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import PropTypes from 'prop-types';
-import {testAction, testAsync} from './../../actions/app';
+import {testAction, testAsync} from '../../actions/app';
 import bookImg from '../../../assets/img/book2.jpg';
 
 @connect(state => ({
@@ -46,14 +46,14 @@ export default class Dashboard extends Component {
 
         return (
             <div className='Dashboard'>
-                <h1>Marvin</h1>
+                <h1>Reactive Pump</h1>
                 <p>
-                    Boilerplate for kicking off React/Redux applications.
+                    University project built in React ecosystem.
                 </p>
 
                 <hr />
 
-                <h2>Examples</h2>
+                <h2>Hints</h2>
 
                 <h3>Synchronous action</h3>
                 <div className='Example'>

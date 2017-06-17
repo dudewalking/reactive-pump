@@ -25,14 +25,14 @@ body {
 
 .App {
   font-size: 1.8rem;
-  padding: 2rem;
+  padding: 1rem;
 
   @include md {
-    padding: 3rem;
+    padding: 1rem;
   }
 
   @include md {
-    padding: 4rem;
+    padding: 1rem;
   }
 }
 
@@ -165,6 +165,13 @@ button:hover {
   background-size: cover;
   height: 16rem;
   max-width: 25rem;
+}
+
+.BackgroundPump {
+  background: url(../assets/img/final-pump.svg) no-repeat center center;
+  background-size: cover;
+  height: 46rem;
+  max-width: 50rem;
 }
 
 .ImgExample {

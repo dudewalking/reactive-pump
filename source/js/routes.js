@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {BrowserRouter, Route} from 'react-router-dom';
 import App from './views/App';
 
@@ -11,12 +11,12 @@ export const routeCodes = {
     PUMP: `${publicPath}pump`,
 };
 
-export default class Routes extends Component {
-    render() {
-        return (
-            <BrowserRouter>
-                <Route path={publicPath} component={App} />
-            </BrowserRouter>
-        );
-    }
-}
+const Routes = () => {
+    return (
+        <BrowserRouter>
+            <Route path={publicPath} component={App} />
+        </BrowserRouter>
+    );
+};
+
+export default Routes;

@@ -69,6 +69,9 @@
     "import/prefer-default-export": 0,
     "global-require": 0,
     "no-undef": 0,
-    "object-curly-spacing": 0
+    "object-curly-spacing": 0,
+    "no-underscore-dangle": 0,
+    "no-console": 0,
+    "jsx-a11y/label-has-for": 0
   }
 }
