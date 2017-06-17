@@ -1,5 +1,5 @@
 import createLogger from 'redux-logger';
-import { Map } from 'immutable';
+import {Map} from 'immutable';
 
 // Redux logger
 const logger = createLogger({

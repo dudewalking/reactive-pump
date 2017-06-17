@@ -24,5 +24,5 @@ module.exports = function (options) {
         },
     ];
 
-    return { rules, plugins };
+    return {rules, plugins};
 };

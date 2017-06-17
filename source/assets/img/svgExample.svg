@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="539px" height="538px" viewBox="0 0 539 538" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="539px" height="538px" viewBox="0 0 539 538" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
     <title>svgExample</title>
     <desc>Created with Sketch.</desc>
@@ -13,7 +14,8 @@
                     <use xlink:href="#path-1"></use>
                 </mask>
                 <g id="a"></g>
-                <polygon id="Shape" fill="#000000" fill-rule="nonzero" mask="url(#mask-2)" points="-6.4 -6.4 95.4 -6.4 95.4 95 -6.4 95"></polygon>
+                <polygon id="Shape" fill="#000000" fill-rule="nonzero" mask="url(#mask-2)"
+                         points="-6.4 -6.4 95.4 -6.4 95.4 95 -6.4 95"></polygon>
             </g>
             <ellipse id="Oval" stroke="#000000" cx="91.3" cy="444.6" rx="91.3" ry="91"></ellipse>
             <ellipse id="Oval" stroke="#000000" cx="130.9" cy="406.4" rx="130.9" ry="130.4"></ellipse>

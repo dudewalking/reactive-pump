@@ -7,7 +7,7 @@ const autoprefixer = require('autoprefixer');
 const nodeEnv = process.env.NODE_ENV || 'development';
 
 module.exports = function (options) {
-    const { buildPath, imgPath, iconPath, sourcePath } = options;
+    const {buildPath, imgPath, iconPath, sourcePath} = options;
 
     const plugins = [
         new SpritePlugin(),
@@ -51,6 +51,7 @@ module.exports = function (options) {
             exclude: /node_modules/,
             use: [
                 'babel-loader',
+                'eslint-loader',
             ],
         },
         {
@@ -74,5 +75,5 @@ module.exports = function (options) {
         },
     ];
 
-    return { rules, plugins };
+    return {rules, plugins};
 };

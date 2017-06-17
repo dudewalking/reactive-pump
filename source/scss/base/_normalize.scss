@@ -427,7 +427,7 @@ textarea {
 }
 
 svg {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 /**
@@ -437,7 +437,7 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-    transition: background-color 500000s ease-in-out 0s, color 500000s ease-in-out 0s;
+  transition: background-color 500000s ease-in-out 0s, color 500000s ease-in-out 0s;
 }
 
 /**
@@ -445,13 +445,13 @@ input:-webkit-autofill:active {
  */
 select::-ms-value,
 select:focus::-ms-value {
-    background: none;
+  background: none;
 }
 
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
 p {
-    margin: 0 0 1em 0;
+  margin: 0 0 1em 0;
 }

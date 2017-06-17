@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import React, {Component} from 'react';
+import {Route, Switch} from 'react-router-dom';
 import PropTypes from 'prop-types';
 import Menu from './../../components/Global/Menu';
 import About from '../../views/About';
@@ -7,7 +7,7 @@ import NotFound from '../../views/NotFound';
 import Dashboard from '../../views/Dashboard';
 import Pump from '../../views/Pump';
 
-import { routeCodes } from '../../routes';
+import {routeCodes} from '../../routes';
 
 
 export default class App extends Component {
@@ -16,7 +16,7 @@ export default class App extends Component {
     };
 
     render() {
-        const { children } = this.props;
+        const {children} = this.props;
         return (
             <div className='App'>
                 <Menu />

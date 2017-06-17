@@ -1,9 +1,9 @@
-import { Map } from 'immutable';
+import {Map} from 'immutable';
 
 import {
     TEST_ACTION,
-    TEST_ASYNC_ACTION_START,
     TEST_ASYNC_ACTION_ERROR,
+    TEST_ASYNC_ACTION_START,
     TEST_ASYNC_ACTION_SUCCESS,
 } from './../actions/app';
 

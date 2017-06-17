@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import ReactGridLayout from 'react-grid-layout';
 
 export default class MyFirstGrid extends Component {
     render() {
         // layout is an array of objects, see the demo for more complete usage
         const layout = [
-            { i: 'a', x: 0, y: 0, w: 1, h: 2, static: true },
-            { i: 'b', x: 1, y: 0, w: 3, h: 2, minW: 2, maxW: 4 },
-            { i: 'c', x: 4, y: 0, w: 1, h: 2 },
+            {i: 'a', x: 0, y: 0, w: 1, h: 2, static: true},
+            {i: 'b', x: 1, y: 0, w: 3, h: 2, minW: 2, maxW: 4},
+            {i: 'c', x: 4, y: 0, w: 1, h: 2},
         ];
 
         return (
